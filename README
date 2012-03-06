@@ -1,0 +1,39 @@
+NAME
+
+    Finance::Bank::DE::LBB::Creditcard - Creditcard details
+
+SYNOPSIS
+
+	use Finance::Bank::DE::LBB::Creditcard;
+	my $user = "0000000000000000";#Creditcardnumber
+	my $password = "passwort";
+	my %data = lbbcheck($user,$password);
+
+	print "Kreditkartenkonto: $data{'creditaccount'}\n";
+	print "Datum: $data{'lastdate'}\n";
+	print "Kontostand: $data{'bank'} EUR\n";
+	print "Punkte: $data{'points'} Punkte\n";
+	print "Angefragt: $data{'requested'} EUR\n";
+	print "Kredit: $data{'fullcredit'} EUR\n";
+	print "Aktuell: $data{'credit'} EUR\n";
+	print "E-Mail: $data{'mail'}\n";
+
+DESCRIPTION
+
+Finance::Bank::DE::LBB::Creditcard - Creditcard details
+
+AUTHOR
+
+    Stefan Gipper <stefanos@cpan.org>, http://www.coder-world.de/
+
+COPYRIGHT
+
+	Finance::Bank::DE::LBB::Creditcard is Copyright (c) 2012 Stefan Gipper
+	All rights reserved.
+
+	This program is free software; you can redistribute
+	it and/or modify it under the same terms as Perl itself.
+
+SEE ALSO
+
+    perl(1)
