@@ -1,7 +1,7 @@
 # http://module-build.sourceforge.net/META-spec.html
 #
 name:         Finance-Bank-DE-LBB-Creditcard
-version:      0.1
+version:      0.2
 version_from: Creditcard.pm
 installdirs:  site
 requires:

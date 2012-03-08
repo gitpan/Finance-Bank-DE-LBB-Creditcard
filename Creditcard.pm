@@ -5,7 +5,7 @@ use Exporter;
 use LWP::UserAgent;
 our @ISA = qw/Exporter/;
 our @EXPORT = qw/lbbcheck/;
-our $VERSION = '0.1';
+our $VERSION = '0.2';
 
 sub lbbcheck($$){
 	my $user = shift;

@@ -4,7 +4,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'		=> 'Finance::Bank::DE::LBB::Creditcard',
     'VERSION_FROM'	=> 'Creditcard.pm', # finds $VERSION
-    'PREREQ_PM'		=> {},
+    'PREREQ_PM'		=> {LWP::UserAgent => 1.00},
     ($] >= 5.005 ? (
       ABSTRACT_FROM => 'Creditcard.pm', 
       AUTHOR     => 'Stefan Gipper <stefanos@cpan.org>',
